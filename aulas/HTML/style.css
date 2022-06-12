@@ -1,0 +1,8 @@
+#titulo, .subtitulo, .posttitulo{
+    color: blue;
+
+}
+.posttitulo{
+    font-size: 16;
+    font-style: italic;
+}
