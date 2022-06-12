@@ -1,5 +1,8 @@
 body{
     background: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 .topo{
     border: 2px solid red;
@@ -9,6 +12,15 @@ body{
 #titulo, .subtitulo, .posttitulo{
     color: blueviolet
 
+}
+
+#titulo{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: line-through;
+    color: red
 }
 .posttitulo{
     font-size: 16;
@@ -23,15 +35,28 @@ body{
     border: 3px dashed black;
     margin-bottom: 15px; 
     border-radius: 5px;
+    text-transform: capitalize;
 }
 
 .conteudo{
     margin: 0;
     margin-bottom: 15px;
     color: green;
+    text-align: center;
    
 }
 
 .sorvete{
     margin-bottom: 15px;
+    text-align: center;
+}
+
+.lista{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.lista li a{
+    text-decoration: none;
+    color: blue;
 }
