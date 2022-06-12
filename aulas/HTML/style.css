@@ -1,3 +1,7 @@
+body{
+    background: #cccc;
+}
+
 #titulo, .subtitulo, .posttitulo{
     color: blue;
 
@@ -5,4 +9,11 @@
 .posttitulo{
     font-size: 16;
     font-style: italic;
+}
+
+.post{
+    background: #ffff;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10px;
 }
